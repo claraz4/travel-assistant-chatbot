@@ -1,5 +1,5 @@
 from langchain.tools import tool
-from typing import List, Dict
+from typing import List, Dict, Any
 import json
 
 def load_distances(path="db_files/transit_time.json", city=None):
@@ -9,7 +9,7 @@ def load_distances(path="db_files/transit_time.json", city=None):
     return data[city] if city else data
 
 @tool
-def itinerary_optimizer(city: str, attractions: List[Dict[str, float]], interests: List[str] = None):
+def itinerary_optimizer(city: str, attractions: List[Dict[str, Any]], interests: List[str] = None):
     """
     Plans an optimized daily itinerary for a given city.
 
@@ -23,8 +23,19 @@ def itinerary_optimizer(city: str, attractions: List[Dict[str, float]], interest
     Returns:
         dict: {
             "city": str,
-            "ordered_itinerary": [{"day": int, "plan": [str]}],
-            "total_travel_time_hr": float
+            "ordered_itinerary": [
+                {
+                    "day": int,
+                    "plan": [
+                        {
+                            "name": str,           # Attraction name
+                            "duration_hr": float,  # Time spent at the attraction
+                            "travel_hr": float     # Travel time from the previous attraction (0 for first stop)
+                        }
+                    ]
+                }
+            ],
+            "total_travel_time_hr": float  # Total travel time across all days (in hours)
         }
     """
     if not city or not attractions:
@@ -52,13 +63,22 @@ def itinerary_optimizer(city: str, attractions: List[Dict[str, float]], interest
                 shortest_time = travel_time
                 next_place = candidate
 
+        if next_place is None:
+            break
+
         travel_hr = shortest_time / 60.0
         if daily_time + travel_hr + next_place["duration_hr"] > daily_limit:
             plan_idx += 1
             plan.append([])
             daily_time = 0
 
-        plan[plan_idx].append(next_place["name"])
+        # Add next attraction with travel time
+        plan[plan_idx].append({
+            "name": next_place["name"],
+            "duration_hr": next_place["duration_hr"],
+            "travel_hr": round(travel_hr, 2)
+        })
+
         daily_time += travel_hr + next_place["duration_hr"]
         total_travel_time += travel_hr
         current = next_place
