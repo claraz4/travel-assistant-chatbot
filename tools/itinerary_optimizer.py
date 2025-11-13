@@ -9,7 +9,7 @@ def load_distances(path="db_files/transit_time.json", city=None):
     return data[city] if city else data
 
 @tool
-def itinerary_optimizer(city: str, attractions: List[Dict[str, Any]], interests: List[str] = None):
+def itinerary_optimizer(city: str, attractions: List[Dict[str, Any]], daily_limit: int = 8):
     """
     Plans an optimized daily itinerary for a given city.
 
@@ -18,7 +18,7 @@ def itinerary_optimizer(city: str, attractions: List[Dict[str, Any]], interests:
         attractions (list): List of attractions, each with:
             - name (str): Attraction name.
             - duration_hr (float): Estimated time spent there.
-        interests (list, optional): Used for minor priority weighting.
+        daily_limit (int): Specify the length of a single plan.
 
     Returns:
         dict: {
@@ -46,7 +46,6 @@ def itinerary_optimizer(city: str, attractions: List[Dict[str, Any]], interests:
     current = remaining.pop(0)
     plan = [[current["name"]]]
     plan_idx = 0
-    daily_limit = 8  # hours
     daily_time = current["duration_hr"]
     total_travel_time = 0.0
 
