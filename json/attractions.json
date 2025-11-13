@@ -1,0 +1,133 @@
+{
+    "Rome": {
+      "Colosseum": {"duration_hr": 2, "category": "history"},
+      "Pantheon": {"duration_hr": 1, "category": "architecture"},
+      "Vatican Museums": {"duration_hr": 3, "category": "art"},
+      "Trevi Fountain": {"duration_hr": 0.5, "category": "landmark"},
+      "Roman Forum": {"duration_hr": 1.5, "category": "history"},
+      "Piazza Navona": {"duration_hr": 1, "category": "landmark"},
+      "Castel Sant'Angelo": {"duration_hr": 1.5, "category": "architecture"},
+      "Spanish Steps": {"duration_hr": 0.5, "category": "landmark"}
+    },
+    "Paris": {
+      "Eiffel Tower": {"duration_hr": 2, "category": "landmark"},
+      "Louvre Museum": {"duration_hr": 3, "category": "art"},
+      "Notre Dame": {"duration_hr": 1.5, "category": "architecture"},
+      "Arc de Triomphe": {"duration_hr": 1, "category": "landmark"},
+      "Montmartre": {"duration_hr": 2, "category": "culture"},
+      "Sainte-Chapelle": {"duration_hr": 1, "category": "architecture"},
+      "Luxembourg Gardens": {"duration_hr": 1.5, "category": "nature"},
+      "Musée d'Orsay": {"duration_hr": 2, "category": "art"}
+    },
+    "Tokyo": {
+      "Shibuya Crossing": {"duration_hr": 0.5, "category": "urban"},
+      "Senso-ji Temple": {"duration_hr": 1.5, "category": "culture"},
+      "Tokyo Skytree": {"duration_hr": 2, "category": "landmark"},
+      "Meiji Shrine": {"duration_hr": 1.5, "category": "culture"},
+      "Ueno Park": {"duration_hr": 2, "category": "nature"},
+      "Ginza District": {"duration_hr": 1.5, "category": "shopping"},
+      "Akihabara": {"duration_hr": 1.5, "category": "entertainment"},
+      "Tsukiji Market": {"duration_hr": 1, "category": "food"}
+    },
+    "New York": {
+      "Statue of Liberty": {"duration_hr": 2, "category": "landmark"},
+      "Central Park": {"duration_hr": 2, "category": "nature"},
+      "Times Square": {"duration_hr": 1, "category": "entertainment"},
+      "Empire State Building": {"duration_hr": 1.5, "category": "architecture"},
+      "Metropolitan Museum": {"duration_hr": 3, "category": "art"},
+      "Brooklyn Bridge": {"duration_hr": 1, "category": "landmark"},
+      "9/11 Memorial": {"duration_hr": 1.5, "category": "history"},
+      "Broadway": {"duration_hr": 2, "category": "entertainment"}
+    },
+    "London": {
+      "Big Ben": {"duration_hr": 1, "category": "landmark"},
+      "Tower of London": {"duration_hr": 2, "category": "history"},
+      "Buckingham Palace": {"duration_hr": 1.5, "category": "landmark"},
+      "British Museum": {"duration_hr": 2.5, "category": "art"},
+      "Hyde Park": {"duration_hr": 2, "category": "nature"},
+      "Westminster Abbey": {"duration_hr": 1.5, "category": "architecture"},
+      "London Eye": {"duration_hr": 1, "category": "landmark"},
+      "Camden Market": {"duration_hr": 1.5, "category": "shopping"}
+    },
+    "Barcelona": {
+      "Sagrada Familia": {"duration_hr": 2, "category": "architecture"},
+      "Park Güell": {"duration_hr": 2, "category": "nature"},
+      "La Rambla": {"duration_hr": 1, "category": "shopping"},
+      "Casa Batlló": {"duration_hr": 1, "category": "architecture"},
+      "Gothic Quarter": {"duration_hr": 1.5, "category": "culture"},
+      "Camp Nou": {"duration_hr": 2, "category": "entertainment"},
+      "Barceloneta Beach": {"duration_hr": 2, "category": "leisure"}
+    },
+    "Dubai": {
+      "Burj Khalifa": {"duration_hr": 1.5, "category": "landmark"},
+      "Dubai Mall": {"duration_hr": 2, "category": "shopping"},
+      "Palm Jumeirah": {"duration_hr": 2, "category": "landmark"},
+      "Dubai Marina": {"duration_hr": 1.5, "category": "leisure"},
+      "Desert Safari": {"duration_hr": 4, "category": "adventure"},
+      "Jumeirah Mosque": {"duration_hr": 1, "category": "culture"},
+      "Museum of the Future": {"duration_hr": 1.5, "category": "science"}
+    },
+    "Istanbul": {
+      "Hagia Sophia": {"duration_hr": 2, "category": "architecture"},
+      "Blue Mosque": {"duration_hr": 1.5, "category": "culture"},
+      "Topkapi Palace": {"duration_hr": 2, "category": "history"},
+      "Grand Bazaar": {"duration_hr": 2, "category": "shopping"},
+      "Bosphorus Cruise": {"duration_hr": 1.5, "category": "activity"},
+      "Galata Tower": {"duration_hr": 1, "category": "landmark"}
+    },
+    "Bangkok": {
+      "Grand Palace": {"duration_hr": 2, "category": "history"},
+      "Wat Arun": {"duration_hr": 1.5, "category": "culture"},
+      "Chatuchak Market": {"duration_hr": 2, "category": "shopping"},
+      "Khao San Road": {"duration_hr": 1.5, "category": "entertainment"},
+      "Jim Thompson House": {"duration_hr": 1, "category": "museum"},
+      "Lumphini Park": {"duration_hr": 1.5, "category": "nature"}
+    },
+    "Singapore": {
+      "Marina Bay Sands": {"duration_hr": 2, "category": "landmark"},
+      "Gardens by the Bay": {"duration_hr": 2, "category": "nature"},
+      "Sentosa Island": {"duration_hr": 3, "category": "leisure"},
+      "Chinatown": {"duration_hr": 1, "category": "culture"},
+      "Singapore Zoo": {"duration_hr": 3, "category": "nature"},
+      "Clarke Quay": {"duration_hr": 1.5, "category": "entertainment"}
+    },
+    "Sydney": {
+      "Sydney Opera House": {"duration_hr": 1.5, "category": "landmark"},
+      "Harbour Bridge": {"duration_hr": 1.5, "category": "landmark"},
+      "Bondi Beach": {"duration_hr": 2, "category": "leisure"},
+      "Taronga Zoo": {"duration_hr": 2, "category": "nature"},
+      "The Rocks": {"duration_hr": 1, "category": "culture"},
+      "Royal Botanic Gardens": {"duration_hr": 1.5, "category": "nature"}
+    },
+    "San Francisco": {
+      "Golden Gate Bridge": {"duration_hr": 1.5, "category": "landmark"},
+      "Alcatraz Island": {"duration_hr": 2.5, "category": "history"},
+      "Pier 39": {"duration_hr": 1, "category": "entertainment"},
+      "Fisherman's Wharf": {"duration_hr": 1.5, "category": "food"},
+      "Chinatown": {"duration_hr": 1, "category": "culture"},
+      "Lombard Street": {"duration_hr": 0.5, "category": "landmark"}
+    },
+    "Berlin": {
+      "Brandenburg Gate": {"duration_hr": 1, "category": "landmark"},
+      "Berlin Wall Memorial": {"duration_hr": 1.5, "category": "history"},
+      "Museum Island": {"duration_hr": 3, "category": "art"},
+      "Reichstag Building": {"duration_hr": 1.5, "category": "architecture"},
+      "Checkpoint Charlie": {"duration_hr": 1, "category": "history"},
+      "Potsdamer Platz": {"duration_hr": 1, "category": "shopping"}
+    },
+    "Athens": {
+      "Acropolis": {"duration_hr": 2.5, "category": "history"},
+      "Parthenon": {"duration_hr": 1.5, "category": "architecture"},
+      "Ancient Agora": {"duration_hr": 1.5, "category": "history"},
+      "National Archaeological Museum": {"duration_hr": 2, "category": "art"},
+      "Plaka": {"duration_hr": 1.5, "category": "culture"}
+    },
+    "Cairo": {
+      "Pyramids of Giza": {"duration_hr": 3, "category": "landmark"},
+      "Egyptian Museum": {"duration_hr": 2.5, "category": "history"},
+      "Khan el-Khalili": {"duration_hr": 1.5, "category": "shopping"},
+      "Coptic Cairo": {"duration_hr": 1.5, "category": "culture"},
+      "Citadel of Saladin": {"duration_hr": 2, "category": "history"}
+    }
+  }
+  

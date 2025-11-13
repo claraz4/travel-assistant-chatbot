@@ -103,30 +103,13 @@ async def main():
 
     # Render hisstory
     for msg in st.session_state.messages:
-
-        if isinstance(msg, SystemMessage):
-            continue
-        with st.chat_message("assistant" if isinstance(msg, AIMessage) else "user"):
-            st.markdown(msg.content)
-
-
         render_message(msg)
 
     # Get user input
-
     prompt = st.chat_input("Your message")
 
     if not prompt:
         return
-
-
-        new_messages = st.session_state.llm.send_message(prompt)
-        
-        for msg in new_messages:
-            if isinstance(msg, AIMessage) and getattr(msg, "text", None):
-                st.session_state.messages.append(AIMessage(content=msg.text))
-                with st.chat_message("assistant"):
-                    st.markdown(msg.text)
 
     # Render user message
     user_msg = HumanMessage(content=prompt)
