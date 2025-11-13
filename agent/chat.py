@@ -1,29 +1,42 @@
 from agent.agent import get_agent
-from langchain_core.messages import HumanMessage, SystemMessage
+from langchain_core.messages import HumanMessage, AIMessage, SystemMessage
 
 system_message = SystemMessage(
     content=(
-        "For every user query, you MUST first call the tool 'search_vector_db' "
-        "using the exact user query as input.\n\n"
-        
-        "After retrieving the search results:\n"
-        "1. If the vector database returns relevant information, USE IT to answer the user.\n"
-        "2. If the vector database returns empty or irrelevant results, THEN answer "
-        "the user using your own reasoning and general knowledge.\n\n"
-        
-        "Always begin by calling 'search_vector_db'. Never skip this step."
+        "For every user query:\n"
+        "1. If it’s about visas, visa policy, e-visa, visa-free, or visa-on-arrival, "
+        "use the `visa_requirements` or `visa_suggestions` tool.\n"
+        "2. Otherwise, first call the tool `search_vector_db` using the exact user query as input.\n"
+        "   - If it returns relevant info, use it to answer.\n"
+        "   - If it’s empty or irrelevant, use your own reasoning.\n\n"
+        "Never skip these steps."
     )
 )
 
 class GeminiChat:
     def __init__(self):
-        self.agent = get_agent()
+        self.agent = get_agent()  # this agent should be the tool-calling agent
         self.messages = [system_message]
 
     def send_message(self, message: str):
+        # Add user message to conversation history
         self.messages.append(HumanMessage(content=message))
         history_len = len(self.messages)
 
-        self.messages = self.agent.invoke({"messages": self.messages})["messages"]
-        return self.messages[history_len:]
+        # Use the LangChain agent (which knows about your tools)
+        try:
+            response = self.agent.invoke({"messages": self.messages})
+        except Exception as e:
+            # Fallback for debugging
+            return [AIMessage(content=f"⚠️ Agent error: {str(e)}")]
 
+        # Update conversation state
+        if isinstance(response, dict) and "messages" in response:
+            self.messages = response["messages"]
+            new_msgs = self.messages[history_len:]
+        else:
+            # In some LangChain versions, output is under "output"
+            ai_text = response.get("output", "No output")
+            new_msgs = [AIMessage(content=ai_text)]
+
+        return new_msgs

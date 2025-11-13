@@ -1,0 +1,60 @@
+{
+    "passport_country": "Lebanon",
+    "last_updated": "2025-11-12",
+    "visa_policy": {
+      "visa_free": [
+        {
+          "country": "Turkey",
+          "stay_duration": "90 days",
+          "notes": "Passport must be valid for at least 6 months upon entry."
+        },
+        {
+          "country": "Malaysia",
+          "stay_duration": "90 days",
+          "notes": "Return ticket required."
+        }
+      ],
+      "visa_on_arrival": [
+        {
+          "country": "Maldives",
+          "stay_duration": "30 days",
+          "notes": "Visa on arrival granted upon payment of fee."
+        },
+        {
+          "country": "Armenia",
+          "stay_duration": "120 days",
+          "notes": "Fee may apply; proof of funds may be requested."
+        }
+      ],
+      "e_visa": [
+        {
+          "country": "India",
+          "stay_duration": "60 days",
+          "notes": "Apply online before departure."
+        },
+        {
+          "country": "Kenya",
+          "stay_duration": "90 days",
+          "notes": "E-visa required, processed through official portal."
+        }
+      ],
+      "visa_required": [
+        {
+          "country": "United States",
+          "stay_duration": "N/A",
+          "notes": "Tourist visa must be obtained from the U.S. embassy prior to travel."
+        },
+        {
+            "country": "Gaelle Land",
+            "stay_duration": "N/A",
+            "notes": "Tourist visa must be obtained from the Gaelle land. embassy prior to travel."
+          },
+        {
+          "country": "Germany",
+          "stay_duration": "N/A",
+          "notes": "Schengen visa required before entry."
+        }
+      ]
+    }
+  }
+  
