@@ -1,0 +1,333 @@
+{
+    "Rome": {
+      "Colosseum": {
+        "Pantheon": 15, "Vatican Museums": 30, "Trevi Fountain": 10, "Roman Forum": 5, "Piazza Navona": 18, "Castel Sant'Angelo": 22, "Spanish Steps": 15
+      },
+      "Pantheon": {
+        "Colosseum": 15, "Vatican Museums": 20, "Trevi Fountain": 8, "Roman Forum": 10, "Piazza Navona": 5, "Castel Sant'Angelo": 12, "Spanish Steps": 10
+      },
+      "Vatican Museums": {
+        "Colosseum": 30, "Pantheon": 20, "Trevi Fountain": 18, "Roman Forum": 25, "Piazza Navona": 15, "Castel Sant'Angelo": 8, "Spanish Steps": 20
+      },
+      "Trevi Fountain": {
+        "Colosseum": 10, "Pantheon": 8, "Vatican Museums": 18, "Roman Forum": 12, "Piazza Navona": 10, "Castel Sant'Angelo": 15, "Spanish Steps": 7
+      },
+      "Roman Forum": {
+        "Colosseum": 5, "Pantheon": 10, "Vatican Museums": 25, "Trevi Fountain": 12, "Piazza Navona": 15, "Castel Sant'Angelo": 20, "Spanish Steps": 15
+      },
+      "Piazza Navona": {
+        "Colosseum": 18, "Pantheon": 5, "Vatican Museums": 15, "Trevi Fountain": 10, "Roman Forum": 15, "Castel Sant'Angelo": 10, "Spanish Steps": 10
+      },
+      "Castel Sant'Angelo": {
+        "Colosseum": 22, "Pantheon": 12, "Vatican Museums": 8, "Trevi Fountain": 15, "Roman Forum": 20, "Piazza Navona": 10, "Spanish Steps": 15
+      },
+      "Spanish Steps": {
+        "Colosseum": 15, "Pantheon": 10, "Vatican Museums": 20, "Trevi Fountain": 7, "Roman Forum": 15, "Piazza Navona": 10, "Castel Sant'Angelo": 15
+      }
+    },
+    "Paris": {
+      "Eiffel Tower": {
+        "Louvre Museum": 20, "Notre Dame": 25, "Arc de Triomphe": 10, "Montmartre": 25, "Sainte-Chapelle": 20, "Luxembourg Gardens": 20, "Musée d'Orsay": 10
+      },
+      "Louvre Museum": {
+        "Eiffel Tower": 20, "Notre Dame": 15, "Arc de Triomphe": 25, "Montmartre": 25, "Sainte-Chapelle": 10, "Luxembourg Gardens": 10, "Musée d'Orsay": 8
+      },
+      "Notre Dame": {
+        "Eiffel Tower": 25, "Louvre Museum": 15, "Arc de Triomphe": 25, "Montmartre": 30, "Sainte-Chapelle": 5, "Luxembourg Gardens": 8, "Musée d'Orsay": 12
+      },
+      "Arc de Triomphe": {
+        "Eiffel Tower": 10, "Louvre Museum": 25, "Notre Dame": 25, "Montmartre": 20, "Sainte-Chapelle": 25, "Luxembourg Gardens": 25, "Musée d'Orsay": 15
+      },
+      "Montmartre": {
+        "Eiffel Tower": 25, "Louvre Museum": 25, "Notre Dame": 30, "Arc de Triomphe": 20, "Sainte-Chapelle": 25, "Luxembourg Gardens": 30, "Musée d'Orsay": 25
+      },
+      "Sainte-Chapelle": {
+        "Eiffel Tower": 20, "Louvre Museum": 10, "Notre Dame": 5, "Arc de Triomphe": 25, "Montmartre": 25, "Luxembourg Gardens": 10, "Musée d'Orsay": 10
+      },
+      "Luxembourg Gardens": {
+        "Eiffel Tower": 20, "Louvre Museum": 10, "Notre Dame": 8, "Arc de Triomphe": 25, "Montmartre": 30, "Sainte-Chapelle": 10, "Musée d'Orsay": 10
+      },
+      "Musée d'Orsay": {
+        "Eiffel Tower": 10, "Louvre Museum": 8, "Notre Dame": 12, "Arc de Triomphe": 15, "Montmartre": 25, "Sainte-Chapelle": 10, "Luxembourg Gardens": 10
+      }
+    },
+    "Tokyo": {
+      "Shibuya Crossing": {
+        "Senso-ji Temple": 35, "Tokyo Skytree": 30, "Meiji Shrine": 10, "Ueno Park": 25, "Ginza District": 20, "Akihabara": 25, "Tsukiji Market": 25
+      },
+      "Senso-ji Temple": {
+        "Shibuya Crossing": 35, "Tokyo Skytree": 10, "Meiji Shrine": 30, "Ueno Park": 10, "Ginza District": 20, "Akihabara": 10, "Tsukiji Market": 20
+      },
+      "Tokyo Skytree": {
+        "Shibuya Crossing": 30, "Senso-ji Temple": 10, "Meiji Shrine": 25, "Ueno Park": 15, "Ginza District": 20, "Akihabara": 15, "Tsukiji Market": 15
+      },
+      "Meiji Shrine": {
+        "Shibuya Crossing": 10, "Senso-ji Temple": 30, "Tokyo Skytree": 25, "Ueno Park": 20, "Ginza District": 20, "Akihabara": 25, "Tsukiji Market": 20
+      },
+      "Ueno Park": {
+        "Shibuya Crossing": 25, "Senso-ji Temple": 10, "Tokyo Skytree": 15, "Meiji Shrine": 20, "Ginza District": 15, "Akihabara": 10, "Tsukiji Market": 15
+      },
+      "Ginza District": {
+        "Shibuya Crossing": 20, "Senso-ji Temple": 20, "Tokyo Skytree": 20, "Meiji Shrine": 20, "Ueno Park": 15, "Akihabara": 10, "Tsukiji Market": 10
+      },
+      "Akihabara": {
+        "Shibuya Crossing": 25, "Senso-ji Temple": 10, "Tokyo Skytree": 15, "Meiji Shrine": 25, "Ueno Park": 10, "Ginza District": 10, "Tsukiji Market": 10
+      },
+      "Tsukiji Market": {
+        "Shibuya Crossing": 25, "Senso-ji Temple": 20, "Tokyo Skytree": 15, "Meiji Shrine": 20, "Ueno Park": 15, "Ginza District": 10, "Akihabara": 10
+      }
+    },
+    "New York": {
+      "Statue of Liberty": {
+        "Central Park": 40, "Times Square": 35, "Empire State Building": 30, "Metropolitan Museum": 45, "Brooklyn Bridge": 25, "9/11 Memorial": 15, "Broadway": 30
+      },
+      "Central Park": {
+        "Statue of Liberty": 40, "Times Square": 10, "Empire State Building": 10, "Metropolitan Museum": 10, "Brooklyn Bridge": 30, "9/11 Memorial": 35, "Broadway": 12
+      },
+      "Times Square": {
+        "Statue of Liberty": 35, "Central Park": 10, "Empire State Building": 5, "Metropolitan Museum": 15, "Brooklyn Bridge": 25, "9/11 Memorial": 30, "Broadway": 3
+      },
+      "Empire State Building": {
+        "Statue of Liberty": 30, "Central Park": 10, "Times Square": 5, "Metropolitan Museum": 15, "Brooklyn Bridge": 25, "9/11 Memorial": 30, "Broadway": 5
+      },
+      "Metropolitan Museum": {
+        "Statue of Liberty": 45, "Central Park": 10, "Times Square": 15, "Empire State Building": 15, "Brooklyn Bridge": 30, "9/11 Memorial": 35, "Broadway": 15
+      },
+      "Brooklyn Bridge": {
+        "Statue of Liberty": 25, "Central Park": 30, "Times Square": 25, "Empire State Building": 25, "Metropolitan Museum": 30, "9/11 Memorial": 15, "Broadway": 25
+      },
+      "9/11 Memorial": {
+        "Statue of Liberty": 15, "Central Park": 35, "Times Square": 30, "Empire State Building": 30, "Metropolitan Museum": 35, "Brooklyn Bridge": 15, "Broadway": 30
+      },
+      "Broadway": {
+        "Statue of Liberty": 30, "Central Park": 12, "Times Square": 3, "Empire State Building": 5, "Metropolitan Museum": 15, "Brooklyn Bridge": 25, "9/11 Memorial": 30
+      }
+    },
+    "London": {
+      "Big Ben": {
+        "Tower of London": 25, "Buckingham Palace": 10, "British Museum": 20, "Hyde Park": 15, "Westminster Abbey": 5, "London Eye": 5, "Camden Market": 25
+      },
+      "Tower of London": {
+        "Big Ben": 25, "Buckingham Palace": 25, "British Museum": 20, "Hyde Park": 30, "Westminster Abbey": 25, "London Eye": 20, "Camden Market": 20
+      },
+      "Buckingham Palace": {
+        "Big Ben": 10, "Tower of London": 25, "British Museum": 15, "Hyde Park": 10, "Westminster Abbey": 10, "London Eye": 10, "Camden Market": 25
+      },
+      "British Museum": {
+        "Big Ben": 20, "Tower of London": 20, "Buckingham Palace": 15, "Hyde Park": 20, "Westminster Abbey": 20, "London Eye": 15, "Camden Market": 15
+      },
+      "Hyde Park": {
+        "Big Ben": 15, "Tower of London": 30, "Buckingham Palace": 10, "British Museum": 20, "Westminster Abbey": 15, "London Eye": 15, "Camden Market": 20
+      },
+      "Westminster Abbey": {
+        "Big Ben": 5, "Tower of London": 25, "Buckingham Palace": 10, "British Museum": 20, "Hyde Park": 15, "London Eye": 5, "Camden Market": 25
+      },
+      "London Eye": {
+        "Big Ben": 5, "Tower of London": 20, "Buckingham Palace": 10, "British Museum": 15, "Hyde Park": 15, "Westminster Abbey": 5, "Camden Market": 25
+      },
+      "Camden Market": {
+        "Big Ben": 25, "Tower of London": 20, "Buckingham Palace": 25, "British Museum": 15, "Hyde Park": 20, "Westminster Abbey": 25, "London Eye": 25
+      }
+    },
+    "Barcelona": {
+      "Sagrada Familia": {
+        "Park Güell": 20, "La Rambla": 25, "Casa Batlló": 15, "Gothic Quarter": 20, "Camp Nou": 30, "Barceloneta Beach": 25
+      },
+      "Park Güell": {
+        "Sagrada Familia": 20, "La Rambla": 25, "Casa Batlló": 15, "Gothic Quarter": 25, "Camp Nou": 25, "Barceloneta Beach": 30
+      },
+      "La Rambla": {
+        "Sagrada Familia": 25, "Park Güell": 25, "Casa Batlló": 10, "Gothic Quarter": 5, "Camp Nou": 30, "Barceloneta Beach": 10
+      },
+      "Casa Batlló": {
+        "Sagrada Familia": 15, "Park Güell": 15, "La Rambla": 10, "Gothic Quarter": 15, "Camp Nou": 25, "Barceloneta Beach": 15
+      },
+      "Gothic Quarter": {
+        "Sagrada Familia": 20, "Park Güell": 25, "La Rambla": 5, "Casa Batlló": 15, "Camp Nou": 30, "Barceloneta Beach": 10
+      },
+      "Camp Nou": {
+        "Sagrada Familia": 30, "Park Güell": 25, "La Rambla": 30, "Casa Batlló": 25, "Gothic Quarter": 30, "Barceloneta Beach": 35
+      },
+      "Barceloneta Beach": {
+        "Sagrada Familia": 25, "Park Güell": 30, "La Rambla": 10, "Casa Batlló": 15, "Gothic Quarter": 10, "Camp Nou": 35
+      }
+    },
+    "Dubai": {
+      "Burj Khalifa": {
+        "Dubai Mall": 5, "Palm Jumeirah": 25, "Dubai Marina": 25, "Desert Safari": 45, "Jumeirah Mosque": 15, "Museum of the Future": 10
+      },
+      "Dubai Mall": {
+        "Burj Khalifa": 5, "Palm Jumeirah": 25, "Dubai Marina": 25, "Desert Safari": 45, "Jumeirah Mosque": 15, "Museum of the Future": 10
+      },
+      "Palm Jumeirah": {
+        "Burj Khalifa": 25, "Dubai Mall": 25, "Dubai Marina": 10, "Desert Safari": 40, "Jumeirah Mosque": 20, "Museum of the Future": 20
+      },
+      "Dubai Marina": {
+        "Burj Khalifa": 25, "Dubai Mall": 25, "Palm Jumeirah": 10, "Desert Safari": 40, "Jumeirah Mosque": 25, "Museum of the Future": 20
+      },
+      "Desert Safari": {
+        "Burj Khalifa": 45, "Dubai Mall": 45, "Palm Jumeirah": 40, "Dubai Marina": 40, "Jumeirah Mosque": 40, "Museum of the Future": 45
+      },
+      "Jumeirah Mosque": {
+        "Burj Khalifa": 15, "Dubai Mall": 15, "Palm Jumeirah": 20, "Dubai Marina": 25, "Desert Safari": 40, "Museum of the Future": 15
+      },
+      "Museum of the Future": {
+        "Burj Khalifa": 10, "Dubai Mall": 10, "Palm Jumeirah": 20, "Dubai Marina": 20, "Desert Safari": 45, "Jumeirah Mosque": 15
+      }
+    },
+    "Istanbul": {
+      "Hagia Sophia": {
+        "Blue Mosque": 3, "Topkapi Palace": 5, "Grand Bazaar": 10, "Bosphorus Cruise": 15, "Galata Tower": 15
+      },
+      "Blue Mosque": {
+        "Hagia Sophia": 3, "Topkapi Palace": 7, "Grand Bazaar": 10, "Bosphorus Cruise": 15, "Galata Tower": 15
+      },
+      "Topkapi Palace": {
+        "Hagia Sophia": 5, "Blue Mosque": 7, "Grand Bazaar": 12, "Bosphorus Cruise": 10, "Galata Tower": 12
+      },
+      "Grand Bazaar": {
+        "Hagia Sophia": 10, "Blue Mosque": 10, "Topkapi Palace": 12, "Bosphorus Cruise": 15, "Galata Tower": 10
+      },
+      "Bosphorus Cruise": {
+        "Hagia Sophia": 15, "Blue Mosque": 15, "Topkapi Palace": 10, "Grand Bazaar": 15, "Galata Tower": 10
+      },
+      "Galata Tower": {
+        "Hagia Sophia": 15, "Blue Mosque": 15, "Topkapi Palace": 12, "Grand Bazaar": 10, "Bosphorus Cruise": 10
+      }
+    },
+    "Bangkok": {
+      "Grand Palace": {
+        "Wat Arun": 10, "Chatuchak Market": 35, "Khao San Road": 10, "Jim Thompson House": 25, "Lumphini Park": 25
+      },
+      "Wat Arun": {
+        "Grand Palace": 10, "Chatuchak Market": 40, "Khao San Road": 15, "Jim Thompson House": 25, "Lumphini Park": 25
+      },
+      "Chatuchak Market": {
+        "Grand Palace": 35, "Wat Arun": 40, "Khao San Road": 30, "Jim Thompson House": 20, "Lumphini Park": 20
+      },
+      "Khao San Road": {
+        "Grand Palace": 10, "Wat Arun": 15, "Chatuchak Market": 30, "Jim Thompson House": 25, "Lumphini Park": 25
+      },
+      "Jim Thompson House": {
+        "Grand Palace": 25, "Wat Arun": 25, "Chatuchak Market": 20, "Khao San Road": 25, "Lumphini Park": 15
+      },
+      "Lumphini Park": {
+        "Grand Palace": 25, "Wat Arun": 25, "Chatuchak Market": 20, "Khao San Road": 25, "Jim Thompson House": 15
+      }
+    },
+    "Singapore": {
+      "Marina Bay Sands": {
+        "Gardens by the Bay": 5, "Sentosa Island": 20, "Chinatown": 10, "Singapore Zoo": 35, "Clarke Quay": 10
+      },
+      "Gardens by the Bay": {
+        "Marina Bay Sands": 5, "Sentosa Island": 25, "Chinatown": 10, "Singapore Zoo": 35, "Clarke Quay": 10
+      },
+      "Sentosa Island": {
+        "Marina Bay Sands": 20, "Gardens by the Bay": 25, "Chinatown": 20, "Singapore Zoo": 40, "Clarke Quay": 25
+      },
+      "Chinatown": {
+        "Marina Bay Sands": 10, "Gardens by the Bay": 10, "Sentosa Island": 20, "Singapore Zoo": 40, "Clarke Quay": 10
+      },
+      "Singapore Zoo": {
+        "Marina Bay Sands": 35, "Gardens by the Bay": 35, "Sentosa Island": 40, "Chinatown": 40, "Clarke Quay": 35
+      },
+      "Clarke Quay": {
+        "Marina Bay Sands": 10, "Gardens by the Bay": 10, "Sentosa Island": 25, "Chinatown": 10, "Singapore Zoo": 35
+      }
+    },
+    "Sydney": {
+      "Sydney Opera House": {
+        "Harbour Bridge": 5, "Bondi Beach": 20, "Taronga Zoo": 15, "The Rocks": 5, "Royal Botanic Gardens": 3
+      },
+      "Harbour Bridge": {
+        "Sydney Opera House": 5, "Bondi Beach": 25, "Taronga Zoo": 20, "The Rocks": 5, "Royal Botanic Gardens": 8
+      },
+      "Bondi Beach": {
+        "Sydney Opera House": 20, "Harbour Bridge": 25, "Taronga Zoo": 25, "The Rocks": 20, "Royal Botanic Gardens": 20
+      },
+      "Taronga Zoo": {
+        "Sydney Opera House": 15, "Harbour Bridge": 20, "Bondi Beach": 25, "The Rocks": 15, "Royal Botanic Gardens": 15
+      },
+      "The Rocks": {
+        "Sydney Opera House": 5, "Harbour Bridge": 5, "Bondi Beach": 20, "Taronga Zoo": 15, "Royal Botanic Gardens": 10
+      },
+      "Royal Botanic Gardens": {
+        "Sydney Opera House": 3, "Harbour Bridge": 8, "Bondi Beach": 20, "Taronga Zoo": 15, "The Rocks": 10
+      }
+    },
+    "San Francisco": {
+      "Golden Gate Bridge": {
+        "Alcatraz Island": 25, "Pier 39": 15, "Fisherman's Wharf": 10, "Chinatown": 20, "Lombard Street": 15
+      },
+      "Alcatraz Island": {
+        "Golden Gate Bridge": 25, "Pier 39": 10, "Fisherman's Wharf": 10, "Chinatown": 20, "Lombard Street": 20
+      },
+      "Pier 39": {
+        "Golden Gate Bridge": 15, "Alcatraz Island": 10, "Fisherman's Wharf": 5, "Chinatown": 10, "Lombard Street": 10
+      },
+      "Fisherman's Wharf": {
+        "Golden Gate Bridge": 10, "Alcatraz Island": 10, "Pier 39": 5, "Chinatown": 15, "Lombard Street": 10
+      },
+      "Chinatown": {
+        "Golden Gate Bridge": 20, "Alcatraz Island": 20, "Pier 39": 10, "Fisherman's Wharf": 15, "Lombard Street": 10
+      },
+      "Lombard Street": {
+        "Golden Gate Bridge": 15, "Alcatraz Island": 20, "Pier 39": 10, "Fisherman's Wharf": 10, "Chinatown": 10
+      }
+    },
+    "Berlin": {
+      "Brandenburg Gate": {
+        "Berlin Wall Memorial": 15, "Museum Island": 10, "Reichstag Building": 5, "Checkpoint Charlie": 10, "Potsdamer Platz": 10
+      },
+      "Berlin Wall Memorial": {
+        "Brandenburg Gate": 15, "Museum Island": 10, "Reichstag Building": 15, "Checkpoint Charlie": 15, "Potsdamer Platz": 15
+      },
+      "Museum Island": {
+        "Brandenburg Gate": 10, "Berlin Wall Memorial": 10, "Reichstag Building": 10, "Checkpoint Charlie": 10, "Potsdamer Platz": 12
+      },
+      "Reichstag Building": {
+        "Brandenburg Gate": 5, "Berlin Wall Memorial": 15, "Museum Island": 10, "Checkpoint Charlie": 12, "Potsdamer Platz": 10
+      },
+      "Checkpoint Charlie": {
+        "Brandenburg Gate": 10, "Berlin Wall Memorial": 15, "Museum Island": 10, "Reichstag Building": 12, "Potsdamer Platz": 8
+      },
+      "Potsdamer Platz": {
+        "Brandenburg Gate": 10, "Berlin Wall Memorial": 15, "Museum Island": 12, "Reichstag Building": 10, "Checkpoint Charlie": 8
+      }
+    },
+    "Athens": {
+      "Acropolis": {
+        "Parthenon": 5, "Ancient Agora": 10, "National Archaeological Museum": 15, "Plaka": 10
+      },
+      "Parthenon": {
+        "Acropolis": 5, "Ancient Agora": 10, "National Archaeological Museum": 15, "Plaka": 10
+      },
+      "Ancient Agora": {
+        "Acropolis": 10, "Parthenon": 10, "National Archaeological Museum": 20, "Plaka": 10
+      },
+      "National Archaeological Museum": {
+        "Acropolis": 15, "Parthenon": 15, "Ancient Agora": 20, "Plaka": 15
+      },
+      "Plaka": {
+        "Acropolis": 10, "Parthenon": 10, "Ancient Agora": 10, "National Archaeological Museum": 15
+      }
+    },
+    "Cairo": {
+      "Pyramids of Giza": {
+        "Egyptian Museum": 35, "Khan el-Khalili": 45, "Coptic Cairo": 30, "Citadel of Saladin": 40
+      },
+      "Egyptian Museum": {
+        "Pyramids of Giza": 35, "Khan el-Khalili": 20, "Coptic Cairo": 25, "Citadel of Saladin": 20
+      },
+      "Khan el-Khalili": {
+        "Pyramids of Giza": 45, "Egyptian Museum": 20, "Coptic Cairo": 25, "Citadel of Saladin": 15
+      },
+      "Coptic Cairo": {
+        "Pyramids of Giza": 30, "Egyptian Museum": 25, "Khan el-Khalili": 25, "Citadel of Saladin": 20
+      },
+      "Citadel of Saladin": {
+        "Pyramids of Giza": 40, "Egyptian Museum": 20, "Khan el-Khalili": 15, "Coptic Cairo": 20
+      }
+    }
+  }
+  

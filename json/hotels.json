@@ -1,0 +1,542 @@
+{
+    "Rome": [
+      {
+        "name": "Hotel Colosseo Classic",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Monti",
+        "nearby_attractions": ["Colosseum", "Roman Forum"],
+        "amenities": ["wifi", "breakfast", "air_conditioning"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Small hotel on a quiet side street with easy walk to the Colosseum."
+      },
+      {
+        "name": "Vatican View Suites",
+        "stars": 4,
+        "budget": "high",
+        "area": "Prati",
+        "nearby_attractions": ["Vatican Museums", "Castel Sant'Angelo"],
+        "amenities": ["wifi", "breakfast", "airport_shuttle", "rooftop_terrace"],
+        "style": "boutique",
+        "family_friendly": false,
+        "notes": "Stylish suites ideal for couples wanting to stay close to the Vatican."
+      },
+      {
+        "name": "Trastevere Budget Rooms",
+        "stars": 2,
+        "budget": "low",
+        "area": "Trastevere",
+        "nearby_attractions": ["Piazza Navona", "Pantheon"],
+        "amenities": ["wifi"],
+        "style": "guesthouse",
+        "family_friendly": true,
+        "notes": "Simple but lively guesthouse in a neighborhood full of bars and restaurants."
+      }
+    ],
+  
+    "Paris": [
+      {
+        "name": "Eiffel Riverside Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "7th arrondissement",
+        "nearby_attractions": ["Eiffel Tower", "Musée d'Orsay"],
+        "amenities": ["wifi", "breakfast", "air_conditioning", "river_view"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Elegant rooms with partial Eiffel Tower views."
+      },
+      {
+        "name": "Latin Quarter Budget Inn",
+        "stars": 2,
+        "budget": "low",
+        "area": "Latin Quarter",
+        "nearby_attractions": ["Notre Dame", "Sainte-Chapelle"],
+        "amenities": ["wifi"],
+        "style": "budget_hotel",
+        "family_friendly": true,
+        "notes": "Basic but central; great for students and backpackers."
+      },
+      {
+        "name": "Montmartre Artist Loft Hotel",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Montmartre",
+        "nearby_attractions": ["Montmartre"],
+        "amenities": ["wifi", "breakfast"],
+        "style": "boutique",
+        "family_friendly": false,
+        "notes": "Quirky decor and small rooms on a hilltop street."
+      }
+    ],
+  
+    "Tokyo": [
+      {
+        "name": "Shibuya Crossing Capsule Hotel",
+        "stars": 2,
+        "budget": "low",
+        "area": "Shibuya",
+        "nearby_attractions": ["Shibuya Crossing", "Meiji Shrine"],
+        "amenities": ["wifi", "laundry"],
+        "style": "capsule",
+        "family_friendly": false,
+        "notes": "Compact capsules right by the famous scramble crossing; perfect for solo travelers."
+      },
+      {
+        "name": "Ueno Park Family Hotel",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Ueno",
+        "nearby_attractions": ["Ueno Park", "Senso-ji Temple"],
+        "amenities": ["wifi", "breakfast", "family_rooms"],
+        "style": "business",
+        "family_friendly": true,
+        "notes": "Good base for families exploring museums and the zoo."
+      },
+      {
+        "name": "Ginza Business Tower Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Ginza",
+        "nearby_attractions": ["Ginza District"],
+        "amenities": ["wifi", "breakfast", "air_conditioning", "meeting_rooms"],
+        "style": "business",
+        "family_friendly": false,
+        "notes": "Polished business hotel in the upscale shopping district."
+      }
+    ],
+  
+    "New York": [
+      {
+        "name": "Central Park West Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Upper West Side",
+        "nearby_attractions": ["Central Park", "Metropolitan Museum"],
+        "amenities": ["wifi", "breakfast", "gym"],
+        "style": "classic",
+        "family_friendly": true,
+        "notes": "Spacious rooms steps away from Central Park."
+      },
+      {
+        "name": "Times Square Budget Pod",
+        "stars": 2,
+        "budget": "low",
+        "area": "Midtown",
+        "nearby_attractions": ["Times Square", "Broadway"],
+        "amenities": ["wifi"],
+        "style": "pod_hotel",
+        "family_friendly": false,
+        "notes": "Tiny but functional rooms; great if you just need a bed in the center of the action."
+      },
+      {
+        "name": "Brooklyn Bridge Boutique Hotel",
+        "stars": 3,
+        "budget": "medium",
+        "area": "DUMBO",
+        "nearby_attractions": ["Brooklyn Bridge"],
+        "amenities": ["wifi", "rooftop_terrace"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Industrial-chic hotel with views of the Manhattan skyline."
+      }
+    ],
+  
+    "London": [
+      {
+        "name": "Westminster Riverfront Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Westminster",
+        "nearby_attractions": ["Big Ben", "London Eye", "Westminster Abbey"],
+        "amenities": ["wifi", "breakfast", "gym", "river_view"],
+        "style": "business",
+        "family_friendly": true,
+        "notes": "Modern rooms along the Thames; easy access to major sights."
+      },
+      {
+        "name": "Camden Music Hostel",
+        "stars": 2,
+        "budget": "low",
+        "area": "Camden",
+        "nearby_attractions": ["Camden Market"],
+        "amenities": ["wifi", "shared_kitchen"],
+        "style": "hostel",
+        "family_friendly": false,
+        "notes": "Lively hostel suited for backpackers and music lovers."
+      },
+      {
+        "name": "Kensington Boutique Suites",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Kensington",
+        "nearby_attractions": ["Hyde Park"],
+        "amenities": ["wifi", "breakfast", "kitchenette"],
+        "style": "aparthotel",
+        "family_friendly": true,
+        "notes": "Quiet residential feel, easy tube access to museums."
+      }
+    ],
+  
+    "Barcelona": [
+      {
+        "name": "Sagrada Familia View Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Eixample",
+        "nearby_attractions": ["Sagrada Familia"],
+        "amenities": ["wifi", "breakfast", "rooftop_pool"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Rooftop pool with direct views of the basilica."
+      },
+      {
+        "name": "Gothic Quarter Budget Hotel",
+        "stars": 2,
+        "budget": "low",
+        "area": "Gothic Quarter",
+        "nearby_attractions": ["Gothic Quarter", "La Rambla"],
+        "amenities": ["wifi"],
+        "style": "budget_hotel",
+        "family_friendly": true,
+        "notes": "Simple rooms in a historic building; great location."
+      },
+      {
+        "name": "Barceloneta Beach Apartments",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Barceloneta",
+        "nearby_attractions": ["Barceloneta Beach"],
+        "amenities": ["wifi", "kitchenette", "air_conditioning"],
+        "style": "aparthotel",
+        "family_friendly": true,
+        "notes": "Beach-focused stay with small kitchenettes."
+      }
+    ],
+  
+    "Dubai": [
+      {
+        "name": "Downtown Sky Tower Hotel",
+        "stars": 5,
+        "budget": "high",
+        "area": "Downtown Dubai",
+        "nearby_attractions": ["Burj Khalifa", "Dubai Mall"],
+        "amenities": ["wifi", "pool", "spa", "airport_shuttle", "gym"],
+        "style": "luxury",
+        "family_friendly": true,
+        "notes": "Full-service luxury hotel with direct mall access."
+      },
+      {
+        "name": "Dubai Marina Suites",
+        "stars": 4,
+        "budget": "medium",
+        "area": "Dubai Marina",
+        "nearby_attractions": ["Dubai Marina", "Palm Jumeirah"],
+        "amenities": ["wifi", "pool", "kitchenette"],
+        "style": "aparthotel",
+        "family_friendly": true,
+        "notes": "Apartment-style rooms ideal for longer stays."
+      },
+      {
+        "name": "Old Dubai Budget Lodge",
+        "stars": 2,
+        "budget": "low",
+        "area": "Deira",
+        "nearby_attractions": ["Dubai Creek"],
+        "amenities": ["wifi"],
+        "style": "budget_hotel",
+        "family_friendly": true,
+        "notes": "Cheap and basic; good for layovers."
+      }
+    ],
+  
+    "Istanbul": [
+      {
+        "name": "Sultanahmet Heritage Hotel",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Sultanahmet",
+        "nearby_attractions": ["Hagia Sophia", "Blue Mosque", "Topkapi Palace"],
+        "amenities": ["wifi", "breakfast", "air_conditioning"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Ottoman-style decor and walking distance to main sights."
+      },
+      {
+        "name": "Galata Tower Design Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Beyoğlu",
+        "nearby_attractions": ["Galata Tower", "Bosphorus Cruise"],
+        "amenities": ["wifi", "rooftop_terrace", "bar"],
+        "style": "boutique",
+        "family_friendly": false,
+        "notes": "Trendy spot for couples and nightlife lovers."
+      },
+      {
+        "name": "Grand Bazaar Guesthouse",
+        "stars": 2,
+        "budget": "low",
+        "area": "Fatih",
+        "nearby_attractions": ["Grand Bazaar"],
+        "amenities": ["wifi", "breakfast"],
+        "style": "guesthouse",
+        "family_friendly": true,
+        "notes": "Family-run place with traditional Turkish breakfast."
+      }
+    ],
+  
+    "Bangkok": [
+      {
+        "name": "Riverside Palace Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Rattanakosin",
+        "nearby_attractions": ["Grand Palace", "Wat Arun"],
+        "amenities": ["wifi", "pool", "spa", "river_view"],
+        "style": "resort",
+        "family_friendly": true,
+        "notes": "Riverside property with boat access to temples."
+      },
+      {
+        "name": "Sukhumvit Skytrain Hostel",
+        "stars": 2,
+        "budget": "low",
+        "area": "Sukhumvit",
+        "nearby_attractions": ["modern malls"],
+        "amenities": ["wifi", "shared_kitchen"],
+        "style": "hostel",
+        "family_friendly": false,
+        "notes": "Backpacker-friendly, easy BTS access."
+      },
+      {
+        "name": "Silom Business Hotel",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Silom",
+        "nearby_attractions": ["Lumphini Park"],
+        "amenities": ["wifi", "breakfast", "meeting_rooms"],
+        "style": "business",
+        "family_friendly": false,
+        "notes": "Good for business travelers wanting to be central."
+      }
+    ],
+  
+    "Singapore": [
+      {
+        "name": "Marina Bay Skyline Hotel",
+        "stars": 5,
+        "budget": "high",
+        "area": "Marina Bay",
+        "nearby_attractions": ["Marina Bay Sands", "Gardens by the Bay"],
+        "amenities": ["wifi", "pool", "spa", "gym", "skybar"],
+        "style": "luxury",
+        "family_friendly": true,
+        "notes": "Iconic skyline views and infinity-style rooftop pool."
+      },
+      {
+        "name": "Chinatown Heritage Inn",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Chinatown",
+        "nearby_attractions": ["Chinatown"],
+        "amenities": ["wifi", "breakfast"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Renovated shophouse with character rooms."
+      },
+      {
+        "name": "Little India Budget Capsules",
+        "stars": 2,
+        "budget": "low",
+        "area": "Little India",
+        "nearby_attractions": ["Little India"],
+        "amenities": ["wifi", "laundry"],
+        "style": "capsule",
+        "family_friendly": false,
+        "notes": "Affordable capsules in a colorful neighborhood."
+      }
+    ],
+  
+    "Sydney": [
+      {
+        "name": "Harbour View Opera Hotel",
+        "stars": 5,
+        "budget": "high",
+        "area": "Circular Quay",
+        "nearby_attractions": ["Sydney Opera House", "Harbour Bridge"],
+        "amenities": ["wifi", "pool", "spa", "gym"],
+        "style": "luxury",
+        "family_friendly": true,
+        "notes": "Premium waterfront location."
+      },
+      {
+        "name": "Bondi Surf Lodge",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Bondi",
+        "nearby_attractions": ["Bondi Beach"],
+        "amenities": ["wifi", "shared_kitchen"],
+        "style": "surf_lodge",
+        "family_friendly": true,
+        "notes": "Relaxed vibes, perfect for beach days."
+      },
+      {
+        "name": "City Backpacker Hostel",
+        "stars": 2,
+        "budget": "low",
+        "area": "CBD",
+        "nearby_attractions": ["The Rocks"],
+        "amenities": ["wifi", "laundry"],
+        "style": "hostel",
+        "family_friendly": false,
+        "notes": "Budget option close to main train station."
+      }
+    ],
+  
+    "San Francisco": [
+      {
+        "name": "Fisherman's Wharf Bay Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Fisherman's Wharf",
+        "nearby_attractions": ["Pier 39", "Fisherman's Wharf"],
+        "amenities": ["wifi", "breakfast", "parking"],
+        "style": "classic",
+        "family_friendly": true,
+        "notes": "Family-friendly base near the waterfront."
+      },
+      {
+        "name": "Union Square Boutique Hotel",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Union Square",
+        "nearby_attractions": ["shopping district"],
+        "amenities": ["wifi", "gym"],
+        "style": "boutique",
+        "family_friendly": false,
+        "notes": "Trendy decor and close to cable cars."
+      },
+      {
+        "name": "Mission District Budget Inn",
+        "stars": 2,
+        "budget": "low",
+        "area": "Mission",
+        "nearby_attractions": ["murals", "local eateries"],
+        "amenities": ["wifi"],
+        "style": "budget_hotel",
+        "family_friendly": true,
+        "notes": "Simple rooms, good for food-focused travelers."
+      }
+    ],
+  
+    "Berlin": [
+      {
+        "name": "Mitte Design Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Mitte",
+        "nearby_attractions": ["Brandenburg Gate", "Museum Island"],
+        "amenities": ["wifi", "breakfast", "gym"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Contemporary interiors and central location."
+      },
+      {
+        "name": "Prenzlauer Berg Family Apartments",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Prenzlauer Berg",
+        "nearby_attractions": ["local parks"],
+        "amenities": ["wifi", "kitchenette"],
+        "style": "aparthotel",
+        "family_friendly": true,
+        "notes": "Popular with families and longer stays."
+      },
+      {
+        "name": "Kreuzberg Backpacker Hostel",
+        "stars": 2,
+        "budget": "low",
+        "area": "Kreuzberg",
+        "nearby_attractions": ["Potsdamer Platz", "Checkpoint Charlie"],
+        "amenities": ["wifi", "shared_kitchen"],
+        "style": "hostel",
+        "family_friendly": false,
+        "notes": "Budget-friendly base near nightlife."
+      }
+    ],
+  
+    "Athens": [
+      {
+        "name": "Acropolis View Terrace Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Koukaki",
+        "nearby_attractions": ["Acropolis", "Parthenon"],
+        "amenities": ["wifi", "breakfast", "rooftop_terrace"],
+        "style": "boutique",
+        "family_friendly": true,
+        "notes": "Rooftop bar with direct Acropolis views."
+      },
+      {
+        "name": "Plaka Family Rooms",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Plaka",
+        "nearby_attractions": ["Plaka", "Ancient Agora"],
+        "amenities": ["wifi", "family_rooms"],
+        "style": "guesthouse",
+        "family_friendly": true,
+        "notes": "Charming, narrow-street location."
+      },
+      {
+        "name": "Omonia Budget Hotel",
+        "stars": 2,
+        "budget": "low",
+        "area": "Omonia",
+        "nearby_attractions": ["central Athens"],
+        "amenities": ["wifi"],
+        "style": "budget_hotel",
+        "family_friendly": false,
+        "notes": "One of the cheapest options in the city center."
+      }
+    ],
+  
+    "Cairo": [
+      {
+        "name": "Giza Pyramid View Inn",
+        "stars": 3,
+        "budget": "medium",
+        "area": "Giza",
+        "nearby_attractions": ["Pyramids of Giza"],
+        "amenities": ["wifi", "breakfast", "rooftop_terrace"],
+        "style": "guesthouse",
+        "family_friendly": true,
+        "notes": "Famous for rooftop pyramid sunsets."
+      },
+      {
+        "name": "Downtown Nile Plaza Hotel",
+        "stars": 4,
+        "budget": "high",
+        "area": "Downtown",
+        "nearby_attractions": ["Egyptian Museum"],
+        "amenities": ["wifi", "pool", "spa", "gym"],
+        "style": "business",
+        "family_friendly": true,
+        "notes": "Modern tower hotel overlooking the Nile."
+      },
+      {
+        "name": "Khan el-Khalili Heritage Hostel",
+        "stars": 2,
+        "budget": "low",
+        "area": "Islamic Cairo",
+        "nearby_attractions": ["Khan el-Khalili", "Citadel of Saladin"],
+        "amenities": ["wifi"],
+        "style": "hostel",
+        "family_friendly": false,
+        "notes": "Budget base inside the historic district."
+      }
+    ]
+  }
+  

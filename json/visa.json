@@ -1,0 +1,224 @@
+{
+  "passport_country": "Lebanon",
+  "last_updated": "2025-11-12",
+  "visa_policy": {
+    "visa_free": [
+      {
+        "country": "Turkey",
+        "stay_duration": "90 days",
+        "notes": "Passport must be valid for at least 6 months upon entry.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 7,
+            "recommended_apply_days_max": 14,
+            "processing_days_estimate": null,
+            "risk_level": "low",
+            "extra_notes": "Double-check entry rules if you plan to stay close to the 90-day limit or do multiple entries."
+          },
+          "business": {
+            "recommended_apply_days_min": 10,
+            "recommended_apply_days_max": 21,
+            "processing_days_estimate": null,
+            "risk_level": "low–medium",
+            "extra_notes": "Some business activities may require invitations or registrations; check with the consulate if you’re doing meetings or events."
+          }
+        }
+      },
+      {
+        "country": "Malaysia",
+        "stay_duration": "90 days",
+        "notes": "Return ticket required.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 7,
+            "recommended_apply_days_max": 14,
+            "processing_days_estimate": null,
+            "risk_level": "low",
+            "extra_notes": "Make sure you have proof of onward travel and enough funds for your stay."
+          },
+          "business": {
+            "recommended_apply_days_min": 10,
+            "recommended_apply_days_max": 21,
+            "processing_days_estimate": null,
+            "risk_level": "low–medium",
+            "extra_notes": "If you’re attending conferences or meetings, bring invitation letters or company documents in case immigration asks."
+          }
+        }
+      }
+    ],
+    "visa_on_arrival": [
+      {
+        "country": "Maldives",
+        "stay_duration": "30 days",
+        "notes": "Visa on arrival granted upon payment of fee.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 7,
+            "recommended_apply_days_max": 14,
+            "processing_days_estimate": null,
+            "risk_level": "low",
+            "extra_notes": "Have hotel booking, return ticket, and proof of funds ready at the visa counter."
+          }
+        }
+      },
+      {
+        "country": "Armenia",
+        "stay_duration": "120 days",
+        "notes": "Fee may apply; proof of funds may be requested.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 7,
+            "recommended_apply_days_max": 14,
+            "processing_days_estimate": null,
+            "risk_level": "low",
+            "extra_notes": "Keep accommodation details and a rough itinerary ready in case border officers ask."
+          },
+          "business": {
+            "recommended_apply_days_min": 10,
+            "recommended_apply_days_max": 21,
+            "processing_days_estimate": null,
+            "risk_level": "low–medium",
+            "extra_notes": "For repeated business visits or longer stays, check if a pre-arranged visa is better than relying on visa on arrival."
+          }
+        }
+      }
+    ],
+    "e_visa": [
+      {
+        "country": "India",
+        "stay_duration": "60 days",
+        "notes": "Apply online before departure.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 10,
+            "recommended_apply_days_max": 20,
+            "processing_days_estimate": 3,
+            "risk_level": "low–medium",
+            "extra_notes": "Make sure the passport details match exactly what you enter in the e-visa form to avoid check-in issues."
+          },
+          "business": {
+            "recommended_apply_days_min": 14,
+            "recommended_apply_days_max": 25,
+            "processing_days_estimate": 5,
+            "risk_level": "medium",
+            "extra_notes": "You may need an invitation letter or company documents for business e-visas; check the official portal requirements."
+          },
+          "study": {
+            "recommended_apply_days_min": 45,
+            "recommended_apply_days_max": 75,
+            "processing_days_estimate": 30,
+            "risk_level": "medium–high",
+            "extra_notes": "Longer study programs often require a regular student visa instead of a simple e-visa; always confirm with the embassy or school."
+          }
+        }
+      },
+      {
+        "country": "Kenya",
+        "stay_duration": "90 days",
+        "notes": "E-visa required, processed through official portal.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 10,
+            "recommended_apply_days_max": 20,
+            "processing_days_estimate": 3,
+            "risk_level": "low",
+            "extra_notes": "Most e-visas are approved within a few days, but don’t leave it for the last 48 hours before your flight."
+          },
+          "business": {
+            "recommended_apply_days_min": 14,
+            "recommended_apply_days_max": 25,
+            "processing_days_estimate": 5,
+            "risk_level": "low–medium",
+            "extra_notes": "Carry printed copies of your e-visa approval and any invitation or conference documents for immigration."
+          }
+        }
+      }
+    ],
+    "visa_required": [
+      {
+        "country": "United States",
+        "stay_duration": "N/A",
+        "notes": "Tourist visa must be obtained from the U.S. embassy prior to travel.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 45,
+            "recommended_apply_days_max": 90,
+            "processing_days_estimate": 30,
+            "risk_level": "medium–high",
+            "extra_notes": "Interview wait times can be long. Check available appointment dates early and don’t book non-refundable tickets before you get the visa."
+          },
+          "business": {
+            "recommended_apply_days_min": 45,
+            "recommended_apply_days_max": 90,
+            "processing_days_estimate": 30,
+            "risk_level": "medium–high",
+            "extra_notes": "Have strong documentation of your job, company ties, and the purpose of the trip to improve your chances."
+          },
+          "study": {
+            "recommended_apply_days_min": 60,
+            "recommended_apply_days_max": 120,
+            "processing_days_estimate": 45,
+            "risk_level": "high",
+            "extra_notes": "You need an I-20 or DS-2019 from your school. Book your appointment as soon as you receive your documents because student visa seasons are busy."
+          },
+          "work": {
+            "recommended_apply_days_min": 90,
+            "recommended_apply_days_max": 150,
+            "processing_days_estimate": 60,
+            "risk_level": "high",
+            "extra_notes": "Most work visas require an approved petition before the embassy appointment. Timelines depend heavily on the employer and visa category."
+          }
+        }
+      },
+      {
+        "country": "Gaelle Land",
+        "stay_duration": "N/A",
+        "notes": "Tourist visa must be obtained from the Gaelle Land embassy prior to travel.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 30,
+            "recommended_apply_days_max": 45,
+            "processing_days_estimate": 15,
+            "risk_level": "medium",
+            "extra_notes": "Make sure you bring proof that you are the true ruler of Gaelle Land. Bonus points for creative supporting documents."
+          }
+        }
+      },
+      {
+        "country": "Germany",
+        "stay_duration": "N/A",
+        "notes": "Schengen visa required before entry.",
+        "trip_types": {
+          "tourism": {
+            "recommended_apply_days_min": 30,
+            "recommended_apply_days_max": 45,
+            "processing_days_estimate": 15,
+            "risk_level": "medium",
+            "extra_notes": "For peak seasons (summer, Christmas, New Year), apply even earlier because appointments and processing can be slower."
+          },
+          "business": {
+            "recommended_apply_days_min": 30,
+            "recommended_apply_days_max": 60,
+            "processing_days_estimate": 15,
+            "risk_level": "medium",
+            "extra_notes": "Have clear documents from your company and the German partner (invitation, meeting schedule, etc.)."
+          },
+          "study": {
+            "recommended_apply_days_min": 60,
+            "recommended_apply_days_max": 90,
+            "processing_days_estimate": 30,
+            "risk_level": "medium–high",
+            "extra_notes": "Long-term study often needs a national (D-type) visa, not just a short-stay Schengen. Start early once you receive your admission letter."
+          },
+          "work": {
+            "recommended_apply_days_min": 60,
+            "recommended_apply_days_max": 120,
+            "processing_days_estimate": 45,
+            "risk_level": "high",
+            "extra_notes": "Work visas usually require a signed contract, recognition of qualifications, and sometimes approvals from German authorities before the visa is issued."
+          }
+        }
+      }
+    ]
+  }
+}

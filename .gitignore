@@ -1,0 +1,29 @@
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Virtual environments ---
+venv/
+.venv/
+env/
+
+# --- Env files ---
+.env
+*.env
+
+# --- LLM Class Project Templates ---
+P*_blank.py
+Project_Instructions.pdf
+
+# --- Streamlit ---
+.streamlit/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- DB Files ---
+db_files/
+vector_db2/
