@@ -2,7 +2,9 @@ from langchain.tools import tool
 from typing import List, Dict, Any
 import json
 
-def load_distances(path="db_files/transit_time.json", city=None):
+
+def load_distances(path="json/transit_time.json", city=None):
+
     """Return all distances or only those for one city."""
     with open(path, "r") as f:
         data = json.load(f)

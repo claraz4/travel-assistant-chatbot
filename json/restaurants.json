@@ -1,0 +1,524 @@
+{
+    "Rome": [
+      {
+        "name": "Trattoria Roma Centro",
+        "cuisines": ["italian", "pasta", "pizza"],
+        "budget": "low",
+        "diet_options": ["vegetarian", "vegan-friendly"],
+        "area": "Centro Storico",
+        "nearby_attractions": ["Colosseum", "Trevi Fountain", "Pantheon"],
+        "notes": "Classic Roman dishes in a cozy setting. Great for casual dinners."
+      },
+      {
+        "name": "Osteria Vaticano",
+        "cuisines": ["italian", "seafood"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Prati",
+        "nearby_attractions": ["Vatican Museums", "Castel Sant'Angelo"],
+        "notes": "Perfect stop after visiting the Vatican. Reservations recommended."
+      },
+      {
+        "name": "Piazza Navona Bistro",
+        "cuisines": ["italian", "dessert"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Piazza Navona",
+        "nearby_attractions": ["Piazza Navona", "Pantheon"],
+        "notes": "Great tiramisu and coffee; ideal for afternoon breaks."
+      },
+      {
+        "name": "Roman Forum Grill",
+        "cuisines": ["grill", "italian"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Monti",
+        "nearby_attractions": ["Roman Forum", "Colosseum"],
+        "notes": "Premium dining with views of ancient ruins."
+      }
+    ],
+  
+    "Paris": [
+      {
+        "name": "Bistro Eiffel",
+        "cuisines": ["french", "bistro"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "7th arrondissement",
+        "nearby_attractions": ["Eiffel Tower", "Musée d'Orsay"],
+        "notes": "Cozy French bistro with traditional recipes."
+      },
+      {
+        "name": "Montmartre Crêperie",
+        "cuisines": ["crepes", "dessert"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Montmartre",
+        "nearby_attractions": ["Montmartre"],
+        "notes": "Amazing sweet and savory crepes."
+      },
+      {
+        "name": "Louvre Garden Café",
+        "cuisines": ["french"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Tuileries",
+        "nearby_attractions": ["Louvre Museum"],
+        "notes": "Premium café with views of the palace grounds."
+      },
+      {
+        "name": "Notre Dame Brasserie",
+        "cuisines": ["french", "seafood"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Île de la Cité",
+        "nearby_attractions": ["Notre Dame", "Sainte-Chapelle"],
+        "notes": "Ideal for dinner after walking along the river."
+      }
+    ],
+  
+    "Tokyo": [
+      {
+        "name": "Sushi Ueno",
+        "cuisines": ["japanese", "sushi"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Ueno",
+        "nearby_attractions": ["Ueno Park", "Tokyo Skytree"],
+        "notes": "Premium sushi experience with seasonal fish."
+      },
+      {
+        "name": "Shibuya Noodles",
+        "cuisines": ["ramen", "japanese"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Shibuya",
+        "nearby_attractions": ["Shibuya Crossing"],
+        "notes": "Affordable and delicious ramen bowls."
+      },
+      {
+        "name": "Ginza Teahouse",
+        "cuisines": ["tea", "dessert"],
+        "budget": "medium",
+        "diet_options": ["vegan-friendly"],
+        "area": "Ginza",
+        "nearby_attractions": ["Ginza District"],
+        "notes": "Matcha and sweets in a calm, elegant spot."
+      },
+      {
+        "name": "Asakusa Tempura Bar",
+        "cuisines": ["tempura", "japanese"],
+        "budget": "medium",
+        "diet_options": [],
+        "area": "Asakusa",
+        "nearby_attractions": ["Senso-ji Temple"],
+        "notes": "Traditional tempura shop near the historic area."
+      }
+    ],
+  
+    "New York": [
+      {
+        "name": "Central Park Deli",
+        "cuisines": ["american", "sandwiches"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Manhattan",
+        "nearby_attractions": ["Central Park"],
+        "notes": "Classic sandwiches, great for quick lunch."
+      },
+      {
+        "name": "Times Square Grill",
+        "cuisines": ["american", "grill"],
+        "budget": "medium",
+        "diet_options": ["gluten-free"],
+        "area": "Times Square",
+        "nearby_attractions": ["Times Square", "Broadway"],
+        "notes": "Lively place with hearty meals."
+      },
+      {
+        "name": "Brooklyn Pizza Co.",
+        "cuisines": ["pizza"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Brooklyn",
+        "nearby_attractions": ["Brooklyn Bridge"],
+        "notes": "Famous for thin-crust slices."
+      },
+      {
+        "name": "Metropolitan Bistro",
+        "cuisines": ["american", "fusion"],
+        "budget": "high",
+        "diet_options": ["vegan-friendly"],
+        "area": "Upper East Side",
+        "nearby_attractions": ["Metropolitan Museum"],
+        "notes": "Creative plates with a modern twist."
+      }
+    ],
+  
+    "London": [
+      {
+        "name": "Big Ben Café",
+        "cuisines": ["british", "tea"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Westminster",
+        "nearby_attractions": ["Big Ben", "London Eye"],
+        "notes": "Classic afternoon tea set."
+      },
+      {
+        "name": "Camden Street Eats",
+        "cuisines": ["street food", "global"],
+        "budget": "low",
+        "diet_options": ["vegan-friendly"],
+        "area": "Camden",
+        "nearby_attractions": ["Camden Market"],
+        "notes": "Trendy market food stalls."
+      },
+      {
+        "name": "Tower of London Tavern",
+        "cuisines": ["british", "grill"],
+        "budget": "medium",
+        "diet_options": ["gluten-free"],
+        "area": "Tower Hill",
+        "nearby_attractions": ["Tower of London"],
+        "notes": "Pub-style dishes with a historic atmosphere."
+      },
+      {
+        "name": "Hyde Park Garden House",
+        "cuisines": ["healthy", "british"],
+        "budget": "high",
+        "diet_options": ["vegan"],
+        "area": "Hyde Park",
+        "nearby_attractions": ["Hyde Park"],
+        "notes": "Modern menu with organic ingredients."
+      }
+    ],
+  
+    "Barcelona": [
+      {
+        "name": "Gothic Quarter Tapas",
+        "cuisines": ["tapas", "spanish"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Gothic Quarter",
+        "nearby_attractions": ["Gothic Quarter"],
+        "notes": "Traditional tapas with local ingredients."
+      },
+      {
+        "name": "Sagrada Familia Paella House",
+        "cuisines": ["paella", "seafood"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Eixample",
+        "nearby_attractions": ["Sagrada Familia"],
+        "notes": "Premium paella and wine pairings."
+      },
+      {
+        "name": "La Rambla Street Bites",
+        "cuisines": ["street food"],
+        "budget": "low",
+        "diet_options": ["vegan-friendly"],
+        "area": "La Rambla",
+        "nearby_attractions": ["La Rambla"],
+        "notes": "Fast bites while exploring the center."
+      },
+      {
+        "name": "Park Güell Café",
+        "cuisines": ["mediterranean"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Gràcia",
+        "nearby_attractions": ["Park Güell"],
+        "notes": "Outdoor terrace with great views."
+      }
+    ],
+  
+    "Dubai": [
+      {
+        "name": "Burj View Lounge",
+        "cuisines": ["international", "grill"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Downtown Dubai",
+        "nearby_attractions": ["Burj Khalifa", "Dubai Mall"],
+        "notes": "Fine dining with skyline views."
+      },
+      {
+        "name": "Marina Seafood House",
+        "cuisines": ["seafood"],
+        "budget": "medium",
+        "diet_options": [],
+        "area": "Dubai Marina",
+        "nearby_attractions": ["Dubai Marina"],
+        "notes": "Fresh fish and outdoor seating."
+      },
+      {
+        "name": "Jumeirah Falafel Spot",
+        "cuisines": ["middle eastern"],
+        "budget": "low",
+        "diet_options": ["vegan"],
+        "area": "Jumeirah",
+        "nearby_attractions": ["Jumeirah Mosque"],
+        "notes": "Affordable and quick Middle Eastern dishes."
+      },
+      {
+        "name": "Desert Safari Camp Buffet",
+        "cuisines": ["arabic", "grill"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Desert Outskirts",
+        "nearby_attractions": ["Desert Safari"],
+        "notes": "Traditional buffet with performances."
+      }
+    ],
+  
+    "Istanbul": [
+      {
+        "name": "Hagia Sophia Café",
+        "cuisines": ["turkish", "tea"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Sultanahmet",
+        "nearby_attractions": ["Hagia Sophia"],
+        "notes": "Lovely view of the square."
+      },
+      {
+        "name": "Blue Mosque Grill",
+        "cuisines": ["turkish", "kebab"],
+        "budget": "medium",
+        "diet_options": [],
+        "area": "Sultanahmet",
+        "nearby_attractions": ["Blue Mosque"],
+        "notes": "Authentic kebabs and grilled meats."
+      },
+      {
+        "name": "Galata Tower Rooftop",
+        "cuisines": ["mediterranean"],
+        "budget": "high",
+        "diet_options": ["vegan-friendly"],
+        "area": "Beyoğlu",
+        "nearby_attractions": ["Galata Tower"],
+        "notes": "Panoramic city views."
+      },
+      {
+        "name": "Grand Bazaar Snacks",
+        "cuisines": ["street food"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Fatih",
+        "nearby_attractions": ["Grand Bazaar"],
+        "notes": "Local snacks and sweets."
+      }
+    ],
+  
+    "Bangkok": [
+      {
+        "name": "Grand Palace Thai Kitchen",
+        "cuisines": ["thai"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Old City",
+        "nearby_attractions": ["Grand Palace"],
+        "notes": "Authentic dishes near the temple."
+      },
+      {
+        "name": "Chatuchak Market BBQ",
+        "cuisines": ["bbq", "street food"],
+        "budget": "low",
+        "diet_options": [],
+        "area": "Chatuchak",
+        "nearby_attractions": ["Chatuchak Market"],
+        "notes": "Popular with locals and tourists."
+      },
+      {
+        "name": "Wat Arun Riverside Dining",
+        "cuisines": ["thai"],
+        "budget": "high",
+        "diet_options": ["vegan-friendly"],
+        "area": "Riverside",
+        "nearby_altractions": ["Wat Arun"],
+        "notes": "Scenic sunset views."
+      }
+    ],
+  
+    "Singapore": [
+      {
+        "name": "Marina Bay Fusion",
+        "cuisines": ["fusion", "asian"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Marina Bay",
+        "nearby_attractions": ["Marina Bay Sands"],
+        "notes": "Upscale fusion cuisines."
+      },
+      {
+        "name": "Gardens by the Bay Café",
+        "cuisines": ["healthy"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Marina Bay",
+        "nearby_attractions": ["Gardens by the Bay"],
+        "notes": "Fresh bowls and smoothies."
+      },
+      {
+        "name": "Chinatown Hawker Center",
+        "cuisines": ["street food"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Chinatown",
+        "nearby_attractions": ["Chinatown"],
+        "notes": "Huge variety of cheap meals."
+      }
+    ],
+  
+    "Sydney": [
+      {
+        "name": "Opera House Bistro",
+        "cuisines": ["australian"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Circular Quay",
+        "nearby_attractions": ["Sydney Opera House"],
+        "notes": "Dine with views of the harbour."
+      },
+      {
+        "name": "Bondi Beach Bowls",
+        "cuisines": ["healthy"],
+        "budget": "medium",
+        "diet_options": ["vegan"],
+        "area": "Bondi",
+        "nearby_attractions": ["Bondi Beach"],
+        "notes": "Smoothie bowls and fresh salads."
+      },
+      {
+        "name": "The Rocks Steakhouse",
+        "cuisines": ["grill"],
+        "budget": "medium",
+        "diet_options": [],
+        "area": "The Rocks",
+        "nearby_attractions": ["The Rocks"],
+        "notes": "Classic Australian steaks."
+      }
+    ],
+  
+    "San Francisco": [
+      {
+        "name": "Golden Gate Café",
+        "cuisines": ["american"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Presidio",
+        "nearby_attractions": ["Golden Gate Bridge"],
+        "notes": "Nice brunch spot."
+      },
+      {
+        "name": "Pier 39 Seafood Shack",
+        "cuisines": ["seafood"],
+        "budget": "medium",
+        "diet_options": [],
+        "area": "Fisherman's Wharf",
+        "nearby_attractions": ["Pier 39"],
+        "notes": "Fresh seafood with ocean views."
+      },
+      {
+        "name": "Chinatown Dim Sum House",
+        "cuisines": ["dim sum", "chinese"],
+        "budget": "low",
+        "diet_options": [],
+        "area": "Chinatown",
+        "nearby_attractions": ["Chinatown"],
+        "notes": "Classic dim sum carts daily."
+      }
+    ],
+  
+    "Berlin": [
+      {
+        "name": "Brandenburg Grill",
+        "cuisines": ["german", "grill"],
+        "budget": "medium",
+        "diet_options": [],
+        "area": "Mitte",
+        "nearby_attractions": ["Brandenburg Gate"],
+        "notes": "Modern German dishes."
+      },
+      {
+        "name": "Museum Island Café",
+        "cuisines": ["coffee", "pastries"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Museum Island",
+        "nearby_attractions": ["Museum Island"],
+        "notes": "Quick snacks while sightseeing."
+      },
+      {
+        "name": "Checkpoint Currywurst",
+        "cuisines": ["street food"],
+        "budget": "low",
+        "diet_options": [],
+        "area": "Kreuzberg",
+        "nearby_attractions": ["Checkpoint Charlie"],
+        "notes": "Famous Berlin street food."
+      }
+    ],
+  
+    "Athens": [
+      {
+        "name": "Acropolis Taverna",
+        "cuisines": ["greek"],
+        "budget": "medium",
+        "diet_options": ["vegetarian"],
+        "area": "Plaka",
+        "nearby_attractions": ["Acropolis"],
+        "notes": "Souvlaki and moussaka with scenic views."
+      },
+      {
+        "name": "Parthenon Rooftop Dining",
+        "cuisines": ["greek", "seafood"],
+        "budget": "high",
+        "diet_options": ["gluten-free"],
+        "area": "Koukaki",
+        "nearby_attractions": ["Parthenon"],
+        "notes": "Sunset dining overlooking the Acropolis."
+      },
+      {
+        "name": "Agora Street Bites",
+        "cuisines": ["street food"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Monastiraki",
+        "nearby_attractions": ["Ancient Agora"],
+        "notes": "Gyros and snacks on the go."
+      }
+    ],
+  
+    "Cairo": [
+      {
+        "name": "Giza Pyramid Grill",
+        "cuisines": ["egyptian", "grill"],
+        "budget": "medium",
+        "diet_options": [],
+        "area": "Giza",
+        "nearby_attractions": ["Pyramids of Giza"],
+        "notes": "Great for lunch during desert tours."
+      },
+      {
+        "name": "Egyptian Museum Café",
+        "cuisines": ["egyptian"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Downtown",
+        "nearby_attractions": ["Egyptian Museum"],
+        "notes": "Quick snacks and drinks before your visit."
+      },
+      {
+        "name": "Khan el-Khalili Tea House",
+        "cuisines": ["tea", "dessert"],
+        "budget": "low",
+        "diet_options": ["vegetarian"],
+        "area": "Islamic Cairo",
+        "nearby_attractions": ["Khan el-Khalili"],
+        "notes": "Traditional Egyptian tea and sweets."
+      }
+    ]
+  }
+  
