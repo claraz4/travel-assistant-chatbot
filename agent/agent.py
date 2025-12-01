@@ -6,6 +6,7 @@ from tools.visa_requirements import visa_requirements, visa_suggestions
 from tools.city_weather import get_city_monthly_weather
 from tools.hotel_matcher import hotel_matcher
 from tools.restaurant_matcher import restaurant_matcher
+#from tools.destination_image import destination_image
 
 from agent.llm import get_llm
 
@@ -22,6 +23,7 @@ def get_agent():
         get_city_monthly_weather,
         hotel_matcher,
         restaurant_matcher,
+        #destination_image,
     ]
 
 
