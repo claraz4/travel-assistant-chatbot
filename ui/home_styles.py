@@ -14,6 +14,22 @@ def home_styles():
             text-shadow: none !important;
         }}
 
+        [data-testid="stMainBlockContainer"] {{
+            padding: 0;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+        }}
+
+        [data-testid="stVerticalBlock"] {{
+            align-items: center;
+            padding: 30px;
+            border-radius: 20px;
+            background-color: rgba(0,51,102,0.4);
+        }}
+
         [data-testid="stAppViewContainer"] {{
             background-image: url("data:image/png;base64,{encoded_bg}");
             background-size: cover;
@@ -40,6 +56,28 @@ def home_styles():
 
         [data-testid="stSidebar"] {{
             background: rgba(255,255,255,0.8);
+        }}
+
+        div[data-baseweb="select"] > div {{
+            background-color: {dark_blue};
+        }}
+
+        div.stButton button {{
+            background-color: {dark_blue};
+        }}
+
+        div.stButton button:hover {{
+            background-color: rgb(0,51,142);
+        }}
+
+        .stSelectbox > div > div:focus-within {{
+            border-color: transparent !important;
+            box-shadow: none !important;
+        }}
+
+        [data-testid="stSelectboxVirtualDropdown"] {{
+            background-color: {dark_blue} !important;   
+            color: white !important;                 
         }}
     </style>
     """

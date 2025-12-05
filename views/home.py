@@ -70,8 +70,7 @@ def render_home():
 
     st.markdown("")
 
-    # ---- Button: rip ticket & go to takeoff (plane animation) ----
-    if st.button("✂️ Rip ticket & board"):
+    if st.button("Rip ticket & board"):
         st.session_state.view = "takeoff"
         st.rerun()
 

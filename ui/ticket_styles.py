@@ -1,68 +1,72 @@
-ticket_styles = """
+from ui.common_styles import dark_blue, light_blue
+
+ticket_styles = f"""
     <style>
-    .ticket-wrapper {
+    .ticket-wrapper {{
         margin-top: 2rem;
         display: flex;
         justify-content: center;
-    }
-    .ticket {
-        background: #111;
+    }}
+    .ticket {{
+        background: {dark_blue};
         color: #f5f5f5;
         border-radius: 18px;
         box-shadow: 0 18px 40px rgba(0,0,0,0.6);
         width: 420px;
         font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
         overflow: hidden;
-    }
-    .ticket-main {
+    }}
+    .ticket-main {{
         padding: 18px 22px;
         position: relative;
-    }
-    .ticket-row {
+    }}
+    .ticket-row {{
         display: flex;
         justify-content: space-between;
         align-items: center;
-    }
-    .ticket-col {
+    }}
+    .ticket-col {{
         display: flex;
         flex-direction: column;
         gap: 2px;
-    }
-    .ticket-label {
+    }}
+    .ticket-label {{
         font-size: 11px;
         text-transform: uppercase;
         letter-spacing: 1px;
         color: #aaaaaa;
-    }
-    .ticket-city {
+    }}
+    .ticket-city {{
         font-size: 32px;
         font-weight: 700;
-    }
-    .ticket-sub {
+    }}
+    .ticket-sub {{
         font-size: 12px;
         color: #cccccc;
-    }
-    .ticket-middle {
+    }}
+    .ticket-middle {{
         font-size: 18px;
         opacity: 0.9;
-    }
-    .ticket-footer {
+    }}
+    .ticket-footer {{
         margin-top: 16px;
         display: flex;
         justify-content: space-between;
         font-size: 11px;
         color: #cccccc;
-    }
-    .ticket-footer strong {
+    }}
+    .ticket-footer strong {{
         color: #ffffff;
-    }
-    .ticket-stub {
+    }}
+    .ticket-stub {{
         background: #000;
-        padding: 8px 16px 14px 16px;
+        padding: 14px 16px;
         display: flex;
         justify-content: center;
-    }
-    .ticket-barcode {
+        background-color: {dark_blue};
+        border-top: white dashed 2px
+    }}
+    .ticket-barcode {{
         width: 80%;
         height: 32px;
         background: repeating-linear-gradient(
@@ -73,6 +77,6 @@ ticket_styles = """
             #000 4px
         );
         border-radius: 6px;
-    }
+    }}
     </style>
-    """
+"""
