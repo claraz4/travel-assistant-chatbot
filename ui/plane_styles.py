@@ -9,9 +9,9 @@ def plane_styles():
     <style>
     .plane-overlay {{
         position: fixed;
-        top: 35%;
+        top: 55%;
         left: -340px;
-        width: 1400px;
+        width: 400px;
         z-index: 9998;
         animation: fly-home 3s linear 1 forwards;
         pointer-events: none;

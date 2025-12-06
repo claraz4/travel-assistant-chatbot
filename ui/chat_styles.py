@@ -33,7 +33,7 @@ def chat_styles(flag_style):
         }}
 
         [data-testid="stChatMessage"]:has([data-testid="stChatMessageAvatarAssistant"]) {{
-            background: {dark_blue};
+            background: {light_blue};
             border-radius: 18px;
             padding: 10px 16px;
             margin-bottom: -10px;
@@ -54,12 +54,13 @@ def chat_styles(flag_style):
             content: "Your Travel Buddy";
             position: absolute;
             top: 50%;
-            left: 20px;
+            left: 50px;
             transform: translateY(-50%);
             font-size: 28px;
             font-weight: 900;
             color: white;
         }}
+      
 
         [data-testid="stChatMessageAvatarUser"],
         [data-testid="stChatMessageAvatarAssistant"] {{
@@ -110,5 +111,20 @@ def chat_styles(flag_style):
         .st-emotion-cache-1cei9z1 {{
             padding-bottom: 5rem;
         }}
+
+          div.stButton > button {{
+                background-color: #ffffff !important;
+                color: #000000 !important;
+                border-radius: 6px !important;
+                padding: 6px 14px !important;
+                font-weight: 600 !important;
+                border: 1px solid #ddd !important;
+        }} 
+
+        div.stButton > button:hover {{
+                background-color: #f2f2f2 !important;
+        }}
+       
+
     </style>
     """

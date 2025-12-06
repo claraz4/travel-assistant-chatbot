@@ -26,7 +26,7 @@ system_message = SystemMessage(
         "- Format each entry as: `<time range>: <activity> (<duration>)`.\n"
         "- Travel must be a separate line: `Travel: <duration>`.\n"
         "- Convert durations under 1 hour to minutes.\n"
-        "- Include breakfast, lunch, and dinner when appropriate.\n"
+        "- Include full day plan: breakfast, lunch, and dinner with restaurants and hotel suggestions.\n"
         "- Make the schedule sound realistic and friendly.\n\n"
     )
 )

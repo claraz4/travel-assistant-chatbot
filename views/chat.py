@@ -11,8 +11,49 @@ from ui.chat_styles import chat_styles
 from ui.pilot_styles import pilot_styles
 
 
+
 def render_chat():
+
+    st.markdown(
+        """
+        <style>
+        .ticket-wrapper,
+        .plane-overlay {
+            display: none !important;
+        }
+        </style>
+        <script>
+        const hideResiduals = () => {
+          document.querySelectorAll('.ticket-wrapper,.plane-overlay')
+                  .forEach(el => el.remove());
+        };
+        hideResiduals();
+        window.addEventListener('load', hideResiduals);
+        setTimeout(hideResiduals, 0);
+        </script>
+        """,
+        unsafe_allow_html=True,
+    )
+    
+    for key in ["takeoff_timer_started", "takeoff_stage"]:
+        st.session_state.pop(key, None)
+
+    # Back arrow row
+    if st.button("⬅ Change Destination"):
+        st.session_state.view = "home"
+        # reset chat history
+        st.session_state.pop("messages", None)
+        st.session_state.pop("chat_history", None)
+
+        # reset agent / model wrapper if you’re storing it
+        st.session_state.pop("chat", None)
+        st.session_state.pop("gemini_chat", None)
+
+        st.rerun()
+
+
     # ---------------- CHAT VIEW ---------------- #
+
     dest = st.session_state.current_destination
     code = dest["code"]
 
@@ -88,7 +129,12 @@ def render_chat():
     # Ask the LLM
     new_messages = st.session_state.llm.send_message(full_prompt)
 
+    
+
+
     # Append and render new messages
     for msg in new_messages:
         st.session_state.messages.append(msg)
         render_message(msg)
+
+        

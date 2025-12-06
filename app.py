@@ -9,7 +9,7 @@ async def main():
     # ---- Initialize session state ----
     if "view" not in st.session_state:
         st.session_state.view = "home"  # "home", "takeoff", "chat"
-
+        
     if "current_destination" not in st.session_state:
         st.session_state.current_destination = DESTINATIONS[1]  # default Berlin
 

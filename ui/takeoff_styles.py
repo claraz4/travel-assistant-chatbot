@@ -38,5 +38,9 @@ def takeoff_styles():
             font-weight: 900;
             color: white;
         }}
+         /* On the takeoff screen we don't need any Streamlit buttons */
+        div.stButton {{
+            display: none !important;
+        }}
     </style>
     """ 
