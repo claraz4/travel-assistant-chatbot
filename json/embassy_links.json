@@ -1,4 +1,10 @@
 {
   "Germany": "https://beirut.diplo.de/lb-en/service/visa",
-  "India": "https://indianvisaonline.gov.in/"
+  "India": "https://indianvisaonline.gov.in/",
+  "Turkey": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
+  "Malaysia": "https://www.imi.gov.my/",
+  "Maldives": "https://immigration.gov.mv/",
+  "Armenia": "https://evisa.mfa.am/",
+  "Kenya": "https://evisa.go.ke/",
+  "United States": "https://www.ustraveldocs.com/"
 }
