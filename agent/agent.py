@@ -20,7 +20,6 @@ def get_agent():
         get_city_monthly_weather,
         hotel_matcher,
         restaurant_matcher,
-        #destination_image,
     ]
 
 
