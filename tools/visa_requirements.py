@@ -1,11 +1,11 @@
-# tools/visa_requirements.py
+
 from langchain.tools import tool
 from pathlib import Path
 from difflib import get_close_matches
 from datetime import datetime, timedelta
 import json
 
-# === Load main dataset ===
+
 DATA_PATH = Path(__file__).resolve().parents[1] / "json" / "visa.json"
 with open(DATA_PATH, "r", encoding="utf-8") as f:
     _DATA = json.load(f)
@@ -14,29 +14,18 @@ _PASSPORT = _DATA.get("passport_country", "Unknown")
 _LAST_UPDATED = _DATA.get("last_updated", "Unknown")
 _POLICY = _DATA.get("visa_policy", {})
 
-# === Optional links (file if present, else small fallback) ===
+
 LINKS_PATH = Path(__file__).resolve().parents[1] / "json" / "embassy_links.json"
 if LINKS_PATH.exists():
     with open(LINKS_PATH, "r", encoding="utf-8") as f:
         _LINKS = json.load(f)
-else:
-    _LINKS = {
-        "Turkey": "https://www.mfa.gov.tr/visa-information-for-foreigners.en.mfa",
-        "Malaysia": "https://www.imi.gov.my/",
-        "Maldives": "https://immigration.gov.mv/",
-        "Armenia": "https://evisa.mfa.am/",
-        "India": "https://indianvisaonline.gov.in/",
-        "Kenya": "https://evisa.go.ke/",
-        "United States": "https://www.ustraveldocs.com/",
-        "Germany": "https://beirut.diplo.de/lb-en/service/visa",
-    }
 
-# === Name helpers ===
+
 def _norm(s: str) -> str:
     return (s or "").strip().casefold()
 
 
-# common aliases / nicknames → canonical name in your JSON
+
 _ALIASES = {
     "usa": "united states",
     "u.s.a.": "united states",
@@ -44,11 +33,11 @@ _ALIASES = {
     "america": "united states",
     "uk": "united kingdom",
     "u.k.": "united kingdom",
-    "schengen": "germany",  # using Germany as a “Schengen example” in your dataset
+    "schengen": "germany",  
     "eu": "germany",
 }
 
-# === Build fast lookup: normalized country -> (category, entry) ===
+
 _LOOKUP = {}
 for cat, items in _POLICY.items():
     for entry in items:
@@ -58,7 +47,7 @@ for cat, items in _POLICY.items():
         base_key = _norm(name)
         _LOOKUP[base_key] = (cat, entry)
 
-        # also map aliases that point to this country
+        
         for alias, target in _ALIASES.items():
             if _norm(target) == base_key:
                 _LOOKUP[alias] = (cat, entry)
@@ -77,20 +66,20 @@ def _fmt_category(cat: str) -> str:
 def _fuzzy_key(q: str) -> str | None:
     key = _norm(q)
 
-    # map aliases first
+
     if key in _ALIASES:
         key = _norm(_ALIASES[key])
 
     if key in _LOOKUP:
         return key
 
-    # try fuzzy match as a fallback
+
     match = get_close_matches(key, list(_LOOKUP.keys()), n=1, cutoff=0.6)
     return match[0] if match else None
 
 
 def _parse_days(stay: str) -> int | None:
-    # expects strings like "90 days", returns 90
+    
     if not stay:
         return None
     parts = stay.strip().split()
@@ -125,7 +114,7 @@ def _normalize_trip_type(trip_type: str) -> str:
         "long stay": "long_stay",
         "long_stay": "long_stay",
     }
-    return mapping.get(t, "tourism")  # default to tourism
+    return mapping.get(t, "tourism")  
 
 
 def _default_timing_window(category: str, tt_norm: str) -> tuple[int | None, int | None]:
@@ -134,7 +123,7 @@ def _default_timing_window(category: str, tt_norm: str) -> tuple[int | None, int
     Returns (min_days, max_days).
     """
     if category == "visa_free":
-        return (7, 14)  # just re-check rules and bookings
+        return (7, 14)  
     if category == "visa_on_arrival":
         return (7, 14)
     if category == "e_visa":
